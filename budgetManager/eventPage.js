@@ -3,4 +3,5 @@ const contextMenuItem = {
   title: "spendMoney",
   contexts: ["selection"]
 };
+
 chrome.contextMenus.create(contextMenuItem);
